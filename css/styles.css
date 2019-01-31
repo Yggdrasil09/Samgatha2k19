@@ -25,14 +25,12 @@ body {
 .logo{
   position: relative;
   z-index: 2;
-
 }
 
 .logo img{
   width: 30rem;
   height: 20rem;
   position: relative;
-
 }
 
 @keyframes ripple {
