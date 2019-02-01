@@ -85,7 +85,6 @@ body {
   border: 30.5px solid #FFF8EE;
   border-left-color: transparent;
   transform:rotate(-5deg);
-
   -webkit-animation: back1 4000ms;
   -moz-animation: back1 4000ms;
   -ms-animation: back1 4000ms;

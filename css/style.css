@@ -31,7 +31,7 @@
   background-image:url("../img/mergedbg.png");
   background-repeat: no-repeat;
   background-position: center; 
-  background-size:130% auto;
+  background-size:120% auto;
   animation-name:vinyl;
   animation-duration:5000ms;
 }
@@ -191,7 +191,7 @@ html, body { margin: 0; padding: 0}
     background-size:10% auto;
   }
   100%{
-    background-size:130% auto;
+    background-size:120% auto;
   }
 }
 
