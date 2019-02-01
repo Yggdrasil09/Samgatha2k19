@@ -1,32 +1,51 @@
+body {
+  background-image: url("../Bg.jpg");
+  font: 14px/1.6em sans-serif;
+}
+
+.ribbon-container{
+  position:absolute;
+  display:block;
+  bottom:14%;
+}
 
 .ribbon {
   width: 400px;
   height: 60px;
   margin: 100px auto 0px;
-  position:absolute;
-  color: #000;
-  font: 28px/60px sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  background: #FFF8EE;
-  border-radius: 3px;
-
-  -webkit-animation: main 5000ms;
-  -moz-animation: main 5000ms;
-  -ms-animation: main 5000ms;
-  animation: main 5000ms;
+  position: relative;
+  background:transparent;
+  
 }
 
 .ribbon i {
   position: absolute;
 }
 
-.ribbon i:first-child {
+.register{
+  width: 400px;
+  height: 60px;
+  margin: 100px auto 0px;
+  position:relative;
+  z-index:10;
+  color: #000;
+  font: 28px/60px sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: #FFF8EE;
+  border-radius: 3px;
+  -webkit-animation: main 5000ms;
+  -moz-animation: main 5000ms;
+  -ms-animation: main 5000ms;
+  animation: main 5000ms;
+}
+
+.ribbon i:nth-child(2) {
   top:-0.75px;
   position: absolute;
   left: 1px;
   bottom: -20px;
-  z-index: -1;
+  z-index: 3;
   border-style: solid;
   border-width: 30px 90px 20px 0;
   border-color: transparent #5e6061 transparent transparent;
@@ -37,12 +56,12 @@
   animation: edge 4000ms;
 }
 
-.ribbon i:nth-child(2) {
+.ribbon i:nth-child(3) {
   top:-0.75px;
   position: absolute;
   left: -20px;
   bottom: -20px;
-  z-index: -1;
+  z-index: 3;
   border-style: solid;
   border-width: 30px 0 20px 90px;
   border-color: transparent transparent transparent #5e6061;
@@ -53,16 +72,16 @@
   animation: edge 4000ms;
 }
 
-.ribbon i:nth-child(2) {
+.ribbon i:nth-child(3) {
   left: auto;
   right: 1px;
 }
 
-.ribbon i:nth-child(3) {
-  width: 120px;
+.ribbon i:nth-child(4) {
+  width: 180px;
   bottom: -20px;
   left: -95px;
-  z-index: -2;
+  z-index: 2;
   border: 30.5px solid #FFF8EE;
   border-left-color: transparent;
   transform:rotate(-5deg);
@@ -79,10 +98,10 @@
 }
 
 .ribbon i:last-child {
-  width: 120px;
+  width: 180px;
   bottom: -20px;
   left: -60px;
-  z-index: -2;
+  z-index: 2;
 
   -webkit-animation: back2 4000ms;
   -moz-animation: back2 4000ms;
